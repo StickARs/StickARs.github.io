@@ -164,7 +164,7 @@ body {
   margin-bottom: 0;
 }
 
-@media(min-width: 50em) {
+@media(min-width: 48em) {
   .cover {
     padding: 0 1.5rem;
     margin-bottom: 0;
