@@ -48,6 +48,7 @@ html,
 body {
   height: 100%;
   background-color: #333;
+  word-break: keep-all;
 }
 
 body {
@@ -159,12 +160,19 @@ body {
  * Cover
  */
 .cover {
-  padding: 0 1.5rem;
+  padding: 0 0;
   margin-bottom: 0;
 }
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
+
+@media(min-width: 50em) {
+  .cover {
+    padding: 0 1.5rem;
+    margin-bottom: 0;
+  }
+  .cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+  }
 }
 
 
