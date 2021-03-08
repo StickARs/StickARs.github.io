@@ -46,7 +46,7 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   overflow: auto;
-	
+
 }
 
 
@@ -196,7 +196,7 @@ body {
  * Footer
  */
 .mastfoot {
-  color: rgba(255, 255, 255, .8);
+  color: #212121;
   margin-bottom: 0;
 }
 
