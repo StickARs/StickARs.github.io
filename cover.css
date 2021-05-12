@@ -204,6 +204,44 @@ body {
     object-fit: cover;
 }
 
+/* Image cards */
+.rotated-right-clipped-image {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  transform: rotate(20deg) scale(1.1);
+}
+
+.rotated-left-clipped-image {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  transform: rotate(-20deg) scale(1.1);
+}
+
+.axolotl-door-image {
+  width: 15rem;
+  object-fit: fit;
+  transform: rotate(0) scale(1.1) translate(0%, -10%);
+}
+
+.image-card {
+  display: flex;
+  align-items: center;
+}
+
+.image-card-text {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.image-cropper {
+  border-radius: 500px;
+  border: 2px solid purple;
+  overflow: hidden;
+  height: 15rem;
+}
+
 
 /*
 The MIT License (MIT)
